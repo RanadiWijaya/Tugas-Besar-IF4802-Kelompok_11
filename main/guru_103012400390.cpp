@@ -1,4 +1,8 @@
 #include "header.h"
+#include <iostream>
+
+using namespace std;
+
 void deleteFirstGuru(ListGuru &L, adrGuru &P) {
     if (L.first == nullptr) {
         cout << "Daftar Guru kosong." << endl;

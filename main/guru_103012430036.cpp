@@ -1,4 +1,9 @@
 #include "header.h"
+#include <iostream>
+
+using namespace std;
+
+
 void createListGuru(ListGuru &L) {
     L.first = nullptr;
 }

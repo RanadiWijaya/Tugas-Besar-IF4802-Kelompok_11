@@ -1,4 +1,9 @@
 #include "header.h"
+#include <iostream>
+
+using namespace std;
+
+
 void deleteFirstMatkul(adrGuru G, adrMatkul &P) {
     if (G == nullptr || G->firstMatkul == nullptr) {
         P = nullptr;

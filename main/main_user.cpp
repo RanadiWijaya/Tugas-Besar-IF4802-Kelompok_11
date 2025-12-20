@@ -1,4 +1,7 @@
 #include "header.h"
+#include <iostream>
+
+using namespace std;
 
 void menuUser(ListGuru &L) {
     int pilihan;

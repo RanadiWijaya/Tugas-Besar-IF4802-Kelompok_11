@@ -1,4 +1,7 @@
 #include "header.h"
+#include <iostream>
+
+using namespace std;
 
 adrMatkul createElmMatkul(infotypeMatkul x) {
     adrMatkul P = new elmMataKuliah;
